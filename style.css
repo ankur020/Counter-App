@@ -1,0 +1,52 @@
+body {
+    background: rgba(212, 171, 171, 0.7)
+}
+
+h1 {
+    color: red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 6vw;
+}
+
+h2 {
+    color: black;
+    font-size: 6vw;
+    text-align: center;
+}
+
+button {
+    margin: 0 37vw;
+    width: 25vw;
+    height: 8vh;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    outline: none;
+    font-size: 3vw;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#save {
+    margin: 5vh 37vw;
+}
+
+#memory {
+    width: auto;
+    background-position: center;
+    text-align: center;
+    font-size: 5vh;
+}
